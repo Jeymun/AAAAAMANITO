@@ -1,0 +1,286 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+.menus{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center ;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.menus:hover{
+    color: #f5118b;
+}
+
+.img--article{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.buttonbuy{
+margin-left: 100px;
+display: flex;
+margin-top: 50px;
+font-size: 1.5rem;
+
+}
+
+.img{
+    width: 800px;
+}    
+
+.img--section{
+    width: 400px;
+    display: block;
+}
+
+
+
+.contacto{
+    font-size: 2rem;
+}
+
+.contacto__opcion{
+    font-size: 1.3rem;
+}
+
+.manga{
+    font-size: 3rem;
+}
+
+.manga__titulo{
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.manga__descripcion{
+    font-size: 1.3rem;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#512BB8;
+}
+
+.manga__img{
+    width: 800px;
+    height: 600px;
+    padding: 10px 100px;
+}
+
+.manga__img--poster{
+    width: 800px;
+    height: 800px;
+    padding: 10px 100px;
+}
+
+.mercancia{
+    font-size: 3rem;
+}
+
+.mercancia__titulo{
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.mercancia__descripcion{
+    font-size: 1.3rem;
+    padding-left: 100px;
+    color:#512BB8;
+}
+
+.mercancia__img{
+    width: 800px;
+    padding: 10px 100px;
+}
+
+.resenas{
+    font-size: 3rem;
+}
+
+.resenas__titulo{
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.resenas__descripcion{
+    font-size: 1.3rem;
+    padding: 10px 100px;
+    color:#512BB8;
+}
+
+.resenas__img{
+    width: 1630px;
+    height: 600px;
+    padding: 10px 100px;
+}
+
+.anime{
+    font-size: 3rem;
+}
+
+.anime__titulo{
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.anime__descripcion{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px 100px;
+    color:#512BB8;
+}
+
+.anime__img{
+    width: 1630px;
+    height: 600px;
+    padding: 10px 100px;
+}
+
+.anime__img--poster{
+    width: 800px;
+    height: 800px;
+    padding: 10px 100px;
+}
+
+body {
+    margin: 0;
+    align-items: center;
+    height: 70px;
+}
+
+main{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul{
+    display: flex;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:#13181F;        
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    
+}
+
+.titulo{
+    font-size: 2.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.date{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    display: block;
+    text-decoration: none;
+    color: #13181F;
+}
+
+.price{
+    display: block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #13181F;
+}
+
+.price:hover{
+    color:#512BB8;
+}
+
+.date:hover{
+    color:#512BB8;
+
+}
+.subtitulo{
+    justify-content: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #13181F;
+}
+
+.subtitulo a{
+    text-decoration: none;
+    color: #13181F;
+}
+
+.subtitulo a:hover{
+    color: #512BB8;
+}
+
+.descripcion{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.descripcion a{
+    text-decoration: none;
+    color: #13181F;
+}
+
+.descripcion a:hover{
+    color: #512BB8;
+}
+
+nav a{
+    color: #ffffff ;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #f5118b;
+}
+
+
+footer{
+    background-color: #13181F;
+    color: #ffffff;
+    margin: 0;
+    height: 15vh;
+}
+
+
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav{
+        padding: 10px 0px;
+        
+    }
+
+}
