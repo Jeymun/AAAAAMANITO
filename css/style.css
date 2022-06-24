@@ -12,6 +12,11 @@ h1 a{
     color: #ffffff;
 }
 
+.main{
+
+}
+
+
 .menus{
     display: flex;
     padding: 10px;
@@ -53,7 +58,7 @@ h1 a{
     color: #ffffff;
     text-decoration: none;
     padding-left: 0.5rem;
-    
+    top: 10%;
 }
 .animear .dc{
     position: absolute;
@@ -72,16 +77,7 @@ h1 a{
 }
 
 .mangaar{
-    display: grid;  
-
-    grid-template-areas: 
-    "test 1"
-    "test 2"
-    "test 3";
-    grid-template-rows: repeat(20vh);
-    grid-template-columns: repeat(4, 24%);
-    column-gap: 1.60%;
-    row-gap: 1.60%;
+    row-gap: 2rem;
 
 }
 
@@ -103,6 +99,7 @@ h1 a{
     color: #ffffff;
     text-decoration: none;
     padding-left: 0.5rem;
+    top: 10%;
     
 }
 .mangaar .dc{
@@ -148,6 +145,7 @@ h1 a{
     color: #ffffff;
     text-decoration: none;
     padding-left: 0.5rem;
+    top: 10%;
     
 }
 .resenasar .dc{
@@ -157,7 +155,7 @@ h1 a{
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
-    top: 15%;
+    top: 25%;
     padding-left: 0.5rem;
 }
 
@@ -242,8 +240,7 @@ h1 a{
     border: solid 5px #13181F;
     width: 15vw;
     height: 15vh;
-    margin-left: 8vw;
-    margin-top: 2vh;
+    margin-left: 1rem;
     display: inline-block;
 }
 
@@ -299,9 +296,8 @@ h1 a{
 }
 
 .buttonbuy{
-margin-left: 100px;
+margin-left: 1rem;
 display: flex;
-margin-top: 50px;
 font-size: 1.5rem;
 
 }
@@ -681,12 +677,7 @@ footer{
 
     .animear{
         display: grid;  
-    
-        grid-template-areas: 
-        "test 1"
-        "test 2"
-        "test 3";
-        grid-template-rows: 30vh 30vh; 
+        grid-template-rows: 30vh; 
         grid-template-columns: 33% 33% 33%;
         column-gap: 1%;
         row-gap: 1%;
@@ -708,10 +699,6 @@ footer{
         display: none;
     }
     
-    .animear .cardfooter{
-        grid-column: 1/4;
-    }
-
     .animear .st{
         position: absolute;
         font-size: 1rem;
@@ -736,18 +723,22 @@ footer{
     
     .mangaar{
         display: grid;  
-    
-        grid-template-areas: 
-        "test 1"
-        "test 2"
-        "test 3";
-        grid-template-rows: repeat(20vh);
-        grid-template-columns: repeat(4, 24%);
-        column-gap: 1.60%;
-        row-gap: 1.60%;
-    
+        grid-template-rows: 30vh; 
+        grid-template-columns: 50% 50%;
     }
     
+    .mangaar .col-3{
+        width: 100%;
+    }
+
+    .mangaar .cardbody{
+        display: none;
+    }
+
+    .mangaar .cardfooter{
+        display: none;
+    }
+
     .mangaar article{
         overflow: hidden;
         position: relative;
@@ -788,14 +779,8 @@ footer{
 
     .resenasar{
         display: grid;  
-    
-        grid-template-areas: 
-        "test 1"
-        "test 2"
-        "test 3";
         grid-template-rows: 25vh; 
-        grid-template-columns: 1.5fr 1fr 1fr;
-        column-gap: 1%;
+        grid-template-columns: 2fr 2fr;
      
     }
     
@@ -898,22 +883,10 @@ footer{
         border: solid 5px #13181F;
         width: 90vw;
         height: 18vh;
-        margin-left: 2vw;
-        margin-top: 2vh;
+        margin-left: 1.5rem;
         display: inline-block;
     }
     
-    /* .ar{
-        overflow: hidden;
-        position: relative;
-        border: solid 5px #13181F;
-        width: 95%;
-        height: 100%;
-        margin-left: 2vw;
-        margin-top: 2vh;
-        display: inline-block;
-    }
-     */
     .ar .st {
         font-size: 1.1rem;
         position: absolute;
@@ -952,8 +925,7 @@ footer{
         border: solid 5px #13181F;
         width: 40vw;
         height: 20vh;
-        margin-left: 2vw;
-        margin-top: 2vh;
+        margin-left: 1rem;
         display: inline-block;
     }
 
@@ -995,8 +967,7 @@ footer{
         border: solid 5px #13181F;
         width: 40vw;
         height: 20vh;
-        margin-left: 2vw;
-        margin-top: 2vh;
+        margin-left: 2rem;
         display: inline-block;
     }
     
