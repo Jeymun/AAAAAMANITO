@@ -9,15 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="icon" href="/assets/logo.png">
+    <link rel="icon" href="./assets/logo.png">
     <title>Pagina-Principal</title>
 </head>
 <body>
     <header>
         <h1 class="principal">BrocherRainbow</h1>
-        <nav>   
-            <div class="toggle-menu">
-                <img src="/assets/menu-button-of-three-horizontal-lines.png" alt="icono desplegable">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">BrocherRainbow <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorias
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./categories/anime/anime.html">Anime</a>
+                    <a class="dropdown-item" href="./categories/manga/manga.html">Manga</a>
+                    <a class="dropdown-item" href="./categories/mercancia/mercancia.html">Mercancia</a>
+                    <a class="dropdown-item" href="./categories/resenas/resenas.html">Reseñas</a>
+                    <a class="dropdown-item" href="./categories/contact/contacto.html">Contacto</a>
+                  </div>
+                </li>
+             
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        <!-- <nav>   
+            <div class="navbar">
+                
             </div>
             <ul>
                 <li class="menus"><a href="./categories/anime/anime.html" >Anime</a></li>
@@ -26,7 +60,7 @@
                 <li class="menus"><a href="./categories/mercancia/mercancia.html" >Mercancia<a></li>
                 <li class="menus"><a href="./categories/contact/contacto.html" >Contacto</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
