@@ -559,9 +559,6 @@ footer{
         font-size: 1.3rem;
     }
 
-    nav .menus{
-        display: none;
-    }
     .an{
         font-size: 3rem;
         padding-left: 5%;
@@ -952,10 +949,6 @@ footer{
 }
     
 @media screen and (min-width: 1260px){
-
-    .toggle-menu{
-        display: none;
-    }
 
     nav .menus{
         display: flex;
