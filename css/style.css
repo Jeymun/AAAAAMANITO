@@ -26,20 +26,16 @@ h1 a{
     color: #ffffff;
 }
 
-.animear{
-    display: grid;  
 
-    grid-template-areas: 
-    "test 1"
-    "test 2"
-    "test 3";
-    grid-template-rows: 50vh 30vh; 
-    grid-template-columns: 33% 33% 33%;
-    column-gap: 1%;
-    row-gap: 1%;
+.animear .titulo--main .titulo{
+    font-size: 4rem;
 }
 
-.animear article{
+.animear .container .row .secondary{
+    padding-top: 2rem;
+}
+
+.animear .container .row{
     overflow: hidden;
     position: relative;
 }
@@ -48,160 +44,49 @@ h1 a{
     width: 100%;
     height: 100%;
 }
-
-
-.animear .st{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 0.5rem;
-    top: 10%;
-}
-.animear .dc{
-    position: absolute;
-    font-size: 1rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    top: 15%;
-    padding-left: 0.5rem;
-
-}
-
-.animear .cardmain{
-    grid-column: 1/4 ;
-}
-
-.mangaar{
-    row-gap: 2rem;
-
-}
-
-.mangaar article{
-    overflow: hidden;
+.caja--index{
+    border: #f5118b solid 10px;
     position: relative;
+    overflow: hidden;
+    
 }
 
-.mangaar img{
+.caja--index .st{
+    position: absolute;
+    font-size: 1.2rem;
+    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.caja--index .st--main{
+    top: 3%;
+    position: absolute;
+    font-size: 1.5rem;
+    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.caja--index .dc{
+    position: absolute;
+    font-size: 1.2rem;
+    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.caja--index img{
     width: 100%;
     height: 100%;
 }
 
-.mangaar .st{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 0.5rem;
-    top: 10%;
-    
+.main--index .container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-.mangaar .dc{
-    position: absolute;
-    font-size: 1rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    top: 15%;
-    padding-left: 0.5rem;
-
-}
-
-.resenasar{
-    display: grid;  
-    grid-template-rows: 25vh; 
-    grid-template-columns: 1.5fr 1fr 1fr;
-    column-gap: 1%;
- 
-}
-
-.resenasar article{
-    overflow: hidden;
-    position: relative;
-}
-
-.resenasar img{
-    width: 100%;
-    height: 100%;
-}
-
-.resenasar .st{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 0.5rem;
-    top: 10%;
-    
-}
-.resenasar .dc{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    top: 25%;
-    padding-left: 0.5rem;
-}
-
-.mercanciaar{
-    display: grid;  
-    grid-template-rows: 25vh; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1%;
- 
-}
-
-.mercanciaar article{
-    overflow: hidden;
-    position: relative;
-}
-
-.mercanciaar img{
-    width: 100%;
-    height: 100%;
-}
-
-.mercanciaar .st{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 0.5rem;
-    
-}
-.mercanciaar .dc{
-    position: absolute;
-    font-size: 2rem;
-    text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    top: 15%;
-    padding-left: 0.5rem;
-}
-
-
-/* .section--me{
-    display: grid;
-    grid-template-rows: 20vh 20vh;
-    grid-template-columns: 10vw 10vw 10vw;
-    width: 100%;
-    column-gap: 1%;
-    row-gap: 10%;
-} */
 
 .arme{
     position: relative;
@@ -225,6 +110,7 @@ h1 a{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 .arme .dc{
     font-size: 1rem;
     font-weight: 700;
@@ -232,12 +118,6 @@ h1 a{
     text-decoration: none;
     padding-left: 0.1rem;
     padding-bottom: 1%;
-}
-
-
-
-.section--anime .ar{
-    margin-left: 3rem;
 }
 
 .ar{
@@ -378,9 +258,8 @@ main{
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
     min-height: calc(100vh - 70px - 15vh);
+    background-color: #13181F;
 }
 
 ul{
@@ -508,14 +387,7 @@ footer{
         height: 50%;
     }
 
-    .animear{
-        display: grid;  
-        grid-template-rows: 30vh; 
-        grid-template-columns: 33% 33% 33%;
-        column-gap: 1%;
-        row-gap: 1%;
-    }
-    
+
     .animear article{
         overflow: hidden;
         position: relative;
@@ -554,12 +426,6 @@ footer{
         top: 15%;
         padding-left: 0.5rem;
         display: none;
-    }
-    
-    .mangaar{
-        display: grid;  
-        grid-template-rows: 30vh 30vh; 
-        grid-template-columns: 100%;
     }
     
     .mangaar .col-3{
@@ -611,14 +477,6 @@ footer{
         grid-column: 1/5;
     }
 
-
-    .resenasar{
-        display: grid;  
-        grid-template-rows: 30vh 30vh; 
-        grid-template-columns: 100%;
-     
-    }
-    
     .resenasar article{
         overflow: hidden;
         position: relative;
@@ -662,20 +520,7 @@ footer{
     .resenasar .cardmain{
         grid-column: 1/4;
     }
-
-    .mercanciaar{
-        display: grid;  
-    
-        grid-template-areas: 
-        "test 1"
-        "test 2"
-        "test 3";
-        grid-template-rows: 50% 50%; 
-        grid-template-columns: 2fr 2fr;
-        column-gap: 1%;
-        row-gap: 1%;
-    }
-    
+ 
     .mercanciaar .cardmain{
         grid-column: 1/3;
     }
