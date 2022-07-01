@@ -63,7 +63,6 @@ h1 a{
 .caja--index .st--main{
     top: 3%;
     position: absolute;
-    font-size: 1.5rem;
     text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
     text-decoration: none;
     color: #ffffff;
@@ -333,7 +332,7 @@ footer{
 
 
 
-@media (max-width:700px){
+@media (max-width:767px){
     header{
         margin: 0;
         font-size: 1rem;
@@ -382,23 +381,18 @@ footer{
         height: 50%;
     }
 
-
-    .animear article{
-        overflow: hidden;
-        position: relative;
-    }
-    
     .animear img{
         width: 100%;
         height: 100%;
     }
      
-    
-    
-
-
     .animear .cardbody{
         display: none;
+    }
+    
+    .animear .col-12{
+        flex: 0 0 auto;
+        width: auto;
     }
     
     .animear .st{
@@ -423,28 +417,14 @@ footer{
         display: none;
     }
     
+    .secondary{
+        display: none;
+    }
+
     .mangaar .col-3{
         width: 100%;
     }
 
-
-    .row .secondary{
-        display: none;
-    }
-
-    .mangaar .cardbody{
-        display: none;
-    }
-
-    .mangaar .cardfooter{
-        display: none;
-    }
-
-    .mangaar article{
-        overflow: hidden;
-        position: relative;
-    }
-    
     .mangaar img{
         width: 100%;
         height: 100%;
@@ -473,28 +453,22 @@ footer{
     
     }
     
-    .mangaar .card{
-        grid-column: 1/5;
-    }
-
-    .resenasar article{
-        overflow: hidden;
-        position: relative;
+    .resenasar .col-5{
+        flex: 0 0 auto;
+        width: auto;
     }
     
+    .resenasar .col-3{
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+
     .resenasar img{
         width: 100%;
         height: 100%;
     }
     
-    .resenasar .cardbody{
-        display: none;
-    }
-
-    .resenasar .cardfooter{
-        display: none;
-    }
-
     .resenasar .st{
         position: absolute;
         font-size: 1rem;
@@ -515,26 +489,29 @@ footer{
         top: 15%;
         padding-left: 0.5rem;
         display: none;
+    
     }
     
-    .resenasar .cardmain{
-        grid-column: 1/4;
-    }
- 
-    .mercanciaar .cardmain{
-        grid-column: 1/3;
-    }
 
-    .mercanciaar article{
-        overflow: hidden;
-        position: relative;
-    }
-    
     .mercanciaar img{
         width: 100%;
         height: 100%;
     }
     
+    .mercanciaar .col-3{
+        width: 100%;
+    }
+
+
+    .mercanciaar .container{
+        display: grid;  
+        grid-template-rows: 15%; 
+        overflow: hidden;
+    }
+    .mercanciaar .secondary{
+        display: none;
+    }
+
     .mercanciaar .st{
         position: absolute;
         font-size: 1rem;
@@ -552,46 +529,36 @@ footer{
         font-weight: 700;
         color: #ffffff;
         text-decoration: none;
-        top: 15%;
         padding-left: 0.5rem;
         display: none;
+        
     }
 
-    .ar{
-        overflow: hidden;
-        position: relative;
-        border: solid 5px #13181F;
-        width: 90vw;
-        height: 18vh;
-        margin-left: 1.5rem;
-        display: inline-block;
-        margin-left: -1%;
+    .caja--index{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
     }
-    
-    .section--anime .ar{
-        margin-left: -1%;
-    }
-    
 
-    .an .img{
-        width: 100%;
-        height: 100%;
+    .ar .im{
+        min-width: 220px;
+        min-height: 100%;
     }
 
 
     .ar .st {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         position: absolute;
         text-decoration: none;
         color: #ffffff ;
         font-weight: 700;
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        margin-left: 10px;
     }
     
     .ar .dt{
         top: 91%;
         position:absolute;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         color: #ffffff;
         text-decoration: none;
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
@@ -643,6 +610,13 @@ footer{
 
 }
     
+@media screen and (max-width: 991px){
+
+    .caja--index .st{
+        font-size: 0.9rem;
+    }    
+}
+
 @media screen and (min-width: 1260px){
 
     nav .menus{
@@ -696,4 +670,8 @@ footer{
     
     }
     
+    .caja--index .st{
+        font-size: 1.2rem;
+    }
+
 }
