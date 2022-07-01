@@ -283,7 +283,6 @@ a{
 }
 
 
-
 .date{
     font-size: 1.3rem;
     padding-top: 1rem;
@@ -351,6 +350,7 @@ footer{
 
     }
 
+    .navbar { margin-left: 0 }
 
     h1{
         font-size: 1.3rem;
