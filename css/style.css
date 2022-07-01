@@ -45,7 +45,6 @@ h1 a{
     height: 100%;
 }
 .caja--index{
-    border: #f5118b solid 10px;
     position: relative;
     overflow: hidden;
     
@@ -58,7 +57,7 @@ h1 a{
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
-
+    top: 5%;
 }
 
 .caja--index .st--main{
@@ -91,8 +90,7 @@ h1 a{
 .arme{
     position: relative;
     width: 200px;
-    display: inline-block;
-    padding-left: 10px;
+    overflow: hidden;
 }
 
 .arme img{
@@ -103,7 +101,7 @@ h1 a{
 .arme .tt{
     font-size: 1rem;
     font-weight: 700;
-    color: #000;
+    color: #fffffF;
     text-decoration: none;
     padding-left: 0.1rem;
     display: block;
@@ -114,7 +112,7 @@ h1 a{
 .arme .dc{
     font-size: 1rem;
     font-weight: 700;
-    color: #000;
+    color: #fffffF;
     text-decoration: none;
     padding-left: 0.1rem;
     padding-bottom: 1%;
@@ -193,6 +191,8 @@ font-size: 1.5rem;
     width: 800px;
 }    
 
+
+
 .img--section{
     width: 246px;
     height: 200px;
@@ -203,33 +203,27 @@ font-size: 1.5rem;
 
 
 
-.contacto{
-    font-size: 2rem;
-}
-
 .contacto__opcion{
     font-size: 1.3rem;
-}
-
-.an{
-    font-size: 3rem;
-    padding-left: 5%;
+    color: #ffffff;
 }
 
 .article--gen .tt{
     font-size: 3rem;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #ffffff;
 
 }
 
 .article--gen .dc{
     font-size: 2.3rem;
-
+    color: #ffffff;
     padding-bottom: 1%;
 }
 
 .article--gen .img{
+    padding-top: 1rem;
     width: 70%;
     height: 50%;
 
@@ -282,7 +276,7 @@ header{
     font-size: 2.5rem;
     padding-top: 30px;
     text-decoration: none;
-    padding-top: 50px;
+    color: #ffffff;
 }
 
 
@@ -292,14 +286,14 @@ header{
     padding-top: 1rem;
     display: block;
     text-decoration: none;
-    color: #13181F;
+    color: #fffffF;
 }
 
 .price{
     display: block;
     text-decoration: none;
     font-size: 1.3rem;
-    color: #13181F;
+    color: #fffffF;
 }
 
 .price:hover{
@@ -353,6 +347,7 @@ footer{
         margin-left: 3rem;
 
     }
+
 
     h1{
         font-size: 1.3rem;
@@ -430,6 +425,11 @@ footer{
     
     .mangaar .col-3{
         width: 100%;
+    }
+
+
+    .row .secondary{
+        display: none;
     }
 
     .mangaar .cardbody{
