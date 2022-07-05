@@ -155,11 +155,10 @@ footer {
   background-color: #13181F;
 }
 
-@media (max-width: 767px) {
-  nav {
-    margin-left: 3rem;
-  }
+.navbar-toggler {
+  border: #B8D9D3 solid;
 }
+
 .ar {
   overflow: hidden;
   position: relative;
@@ -335,6 +334,7 @@ footer {
   }
   .caja--index img {
     width: 100%;
+    height: 100%;
   }
   .mangaar .col-3 {
     width: 100%;
