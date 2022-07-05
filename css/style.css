@@ -138,6 +138,10 @@ footer {
     display: none;
   }
 }
+.btn {
+  padding-right: 50px;
+}
+
 .navbar-nav .active a {
   color: #B8D9D3 !important;
 }
