@@ -29,9 +29,17 @@
     font-size: 1.3rem;
     padding-bottom: 5%;
   }
+  .article--gen__img {
+    padding-top: 1rem;
+    width: 70%;
+  }
+  .article--gen__pt {
+    width: 50%;
+    padding-bottom: 1rem;
+  }
 }
 @media (min-width: 767px) {
-  .article--gen_img {
+  .article--gen__img {
     padding-top: 1rem;
     width: 70%;
   }

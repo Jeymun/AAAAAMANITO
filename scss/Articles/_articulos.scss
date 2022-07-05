@@ -34,16 +34,25 @@
             font-size: 1.3rem;
             padding-bottom: 5%;
         }
+        &__img{
+                padding-top: 1rem;
+                width: 70%;
+        }
+        &__pt{
+                width: 50%;
+                padding-bottom: 1rem;
+        }
+        }
     }
 
     
-}
+
 
 @media (min-width:767px){
 
     .article--gen{
 
-        &_img{
+        &__img{
             padding-top: 1rem;
             width: 70%;
         }
