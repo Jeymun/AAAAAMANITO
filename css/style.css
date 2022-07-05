@@ -92,6 +92,10 @@ h1 a{
     padding-bottom: 1rem;
 }
 
+.main--index .img{
+    width: 100%;
+}
+
 .arme{
     position: relative;
     width: 200px;
@@ -101,6 +105,15 @@ h1 a{
 .arme img{
     width: 100%;
     height: 100%;
+}
+
+
+.left{
+    padding-left: 0 !important;
+}
+
+.right{
+    padding-right: 0 !important;
 }
 
 .arme .tt{
@@ -243,7 +256,7 @@ font-size: 1.5rem;
 
 .article--gen .pt{
     width:50% ;
-
+    padding-bottom: 1rem;
 }
 
 img{
