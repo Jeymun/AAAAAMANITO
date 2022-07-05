@@ -1,24 +1,12 @@
-.article--gen{
-    
-    &__titulo{
-        font-size: 3rem;
-        color: #ffffff;
-    }
-    &__subtitulo{
-        font-size: 2rem;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        color: #ffffff;
-    }
-    &__texto{
-        font-size: 1.5rem;
-        color: #ffffff;
-        padding-bottom: 1%;
-        &__strng{
-            font-weight: 700;
-            font-size: 1.7rem;
-        }
-    }
 
-}
+@import "./Articles/articulos";
 
+@import "./Base/reseteo";
+@import "./Base/tipografia";
+
+@import "./Componentes/nav";
+
+@import "./Pages/anmare";
+@import "./Pages/contacto";
+@import "./Pages/index";
+@import "./Pages/mercancia"

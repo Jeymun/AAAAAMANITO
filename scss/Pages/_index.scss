@@ -1,0 +1,121 @@
+.animear{
+    & img{
+        width: 100%;
+    }
+    & .container{
+        & .row{
+            overflow: hidden;
+            position: relative;
+            & .secondary{
+                padding-top: 2rem;
+            }
+        }
+    }
+}
+
+.caja--index{
+    position: relative;
+    overflow: hidden;
+        &__subtitulo{
+            position: absolute;
+            font-size: 1.2rem;
+            text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+            top: 5%;
+            &:hover{
+                color: #B8D9D3;
+            }
+        }
+        &__texto{
+            position: absolute;
+            font-size: 1.2rem;
+            text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        & img{
+            width: 100%;
+        }
+        & .container{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+@media (max-width:767px){
+    .animear .cardbody{
+        display: none;
+    }
+    .animear .col-12{
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .caja--index{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        &__subtitulo{
+            position: absolute;
+            font-size: 1rem;
+            text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+            padding-left: 0.5rem;
+        }
+        &__texto{
+            position: absolute;
+            font-size: 1rem;
+            text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+            top: 15%;
+            padding-left: 0.5rem;
+            display: none;
+        }
+        & img{
+            width: 100%;
+        }
+   }
+
+    .mangaar .col-3{
+        width: 100%;
+    }
+
+    .resenasar .col-5{
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+    .resenasar .col-3{
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .mercanciaar .container{
+        display: grid;  
+        grid-template-rows: 15%; 
+        overflow: hidden;
+    }
+  
+
+}
+
+
+@media screen and (max-width: 991px){
+
+    .caja--index{
+        &__subtitulo{
+        font-size: 0.9rem;
+        }
+        &__texto{
+            display: none;
+        }
+    }    
+    .mercanciaar .texto{
+        top: 30%
+    }
+}
