@@ -4,3 +4,10 @@
         color: #ffffff;
     }
 }
+
+@media (max-width:767px){
+    header{
+        margin: 0;
+        font-size: 1rem;
+    }
+}

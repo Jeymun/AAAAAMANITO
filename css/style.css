@@ -8,19 +8,15 @@
   padding-bottom: 1%;
   color: #ffffff;
 }
-.article--gen__subtitulo:hover {
-  color: #B8D9D3;
-}
 .article--gen__texto {
   font-size: 1.5rem;
   color: #ffffff;
   padding-bottom: 1%;
 }
-.article--gen__texto__strng {
+
+.strong {
   font-weight: 700;
   font-size: 1.7rem;
-  color: #ffffff;
-  padding-bottom: 1%;
 }
 
 @media (max-width: 767px) {
@@ -249,6 +245,12 @@ footer {
   color: #ffffff;
 }
 
+@media (max-width: 767px) {
+  header {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
 .animear img {
   width: 100%;
 }
