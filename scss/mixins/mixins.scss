@@ -1,0 +1,7 @@
+
+@mixin texto($fuente,$padding-top) {
+    font-size: $fuente;
+    padding-top: $padding-top;
+    text-decoration: none;
+    color: $accent;
+}
