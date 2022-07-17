@@ -1,17 +1,20 @@
 .article--gen__titulo {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  padding-top: 30px;
+  text-decoration: none;
   color: #ffffff;
 }
 .article--gen__subtitulo {
   font-size: 2rem;
   padding-top: 1%;
-  padding-bottom: 1%;
+  text-decoration: none;
   color: #ffffff;
 }
 .article--gen__texto {
   font-size: 1.5rem;
+  padding-top: 5%;
+  text-decoration: none;
   color: #ffffff;
-  padding-bottom: 1%;
 }
 
 .strong {
@@ -112,10 +115,6 @@ footer {
   width: 100%;
 }
 
-.principal {
-  color: #B8D9D3;
-}
-
 .titulo {
   font-size: 2.5rem;
   padding-top: 30px;
@@ -207,6 +206,10 @@ footer {
   header {
     margin: 0;
     font-size: 1rem;
+  }
+  .article--section .col {
+    flex: 0 0 auto;
+    width: auto;
   }
   .ar {
     margin-bottom: -1px;
@@ -380,7 +383,7 @@ footer {
 .arme__titulo {
   font-size: 1rem;
   font-weight: 700;
-  color: #fffffF;
+  color: #ffffff;
   text-decoration: none;
   padding-left: 0.1rem;
   display: block;
@@ -390,7 +393,7 @@ footer {
 .arme__texto {
   font-size: 1rem;
   font-weight: 700;
-  color: #fffffF;
+  color: #ffffff;
   text-decoration: none;
   padding-left: 0.1rem;
   display: block;

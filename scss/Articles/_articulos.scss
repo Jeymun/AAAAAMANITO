@@ -1,19 +1,28 @@
+
+$primary:#13181F;
+$accent:#ffffff;    
+
+
+@mixin texto($fuente,$padding-top) {
+    font-size: $fuente;
+    padding-top: $padding-top;
+    text-decoration: none;
+    color: $accent;
+}
+
+
+
+
 .article--gen{
     
     &__titulo{
-        font-size: 3rem;
-        color: #ffffff;
+        @include texto(2.5rem,30px);
     }
     &__subtitulo{
-        font-size: 2rem;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        color: #ffffff;
+        @include texto(2rem,1%);
     }
     &__texto{
-        font-size: 1.5rem;
-        color: #ffffff;
-        padding-bottom: 1%;
+        @include texto(1.5rem,5%);
     }
 
 }

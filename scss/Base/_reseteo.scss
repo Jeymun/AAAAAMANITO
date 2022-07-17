@@ -1,3 +1,17 @@
+
+$primary:#13181F;
+$accent:#ffffff;    
+
+
+@mixin titulo {
+    font-size: 2.5rem;
+    padding-top: 30px;
+    text-decoration: none;
+    color: $accent;
+}
+
+
+
 * {
 
     margin: 0px;
@@ -6,6 +20,7 @@
     font-family: Roboto, sans-serif;
     min-width: 0;
 }
+
 
 
 body {
@@ -23,7 +38,7 @@ main{
     width: 100%;
     min-height: 1px;
     min-height: calc(100vh - 70px - 15vh);
-    background-color: #13181F;
+    background-color: $primary;
 }
 
 ul{
@@ -33,11 +48,11 @@ ul{
 header{
     display: flex;
     min-height: 70px;
-    background-color:#13181F;        
+    background-color:$primary;        
     justify-content: space-between;
     padding: 10px 40px;
     align-items: center;
-    color: #ffffff;
+    color: $accent;
     font-size: 1.5rem;
     
 }
@@ -47,8 +62,8 @@ a{
 }
 
 footer{
-    background-color: #13181F;
-    color: #ffffff;
+    background-color:$primary;
+    color: $accent;
     margin: 0;
     min-height: 15vh;
 }
@@ -65,15 +80,10 @@ footer{
     width: 100%
 }    
 
-.principal{
-    color:#B8D9D3;
-}
+
 
 .titulo{
-    font-size: 2.5rem;
-    padding-top: 30px;
-    text-decoration: none;
-    color: #ffffff;
+    @include titulo;
 }
 
 @media (max-width:767px){

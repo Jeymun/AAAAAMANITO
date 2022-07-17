@@ -8,7 +8,7 @@
     &__titulo{
         font-size: 1rem;
         font-weight: 700;
-        color: #fffffF;
+        color: $accent;
         text-decoration: none;
         padding-left: 0.1rem;
         display: block;
@@ -18,7 +18,7 @@
     &__texto{
         font-size: 1rem;
         font-weight: 700;
-        color: #fffffF;
+        color: $accent;
         text-decoration: none;
         padding-left: 0.1rem;
         display: block;
