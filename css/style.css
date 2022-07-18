@@ -286,7 +286,7 @@ footer {
   font-weight: 700;
   color: #ffffff;
   text-decoration: none;
-  top: 5%;
+  top: 10px;
 }
 .caja--index__subtitulo:hover {
   color: #B8D9D3;
@@ -297,6 +297,10 @@ footer {
   text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
   text-decoration: none;
   color: #ffffff;
+  top: 50px;
+}
+.caja--index__img {
+  width: 100px;
 }
 .caja--index img {
   width: 100%;
