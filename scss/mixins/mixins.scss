@@ -5,3 +5,17 @@
     text-decoration: none;
     color: $accent;
 }
+
+.article--gen{
+    
+    &__titulo{
+        @include texto(2.5rem,30px);
+    }
+    &__subtitulo{
+        @include texto(2rem,1%);
+    }
+    &__texto{
+        @include texto(1.5rem,1%);
+    }
+
+}

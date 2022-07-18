@@ -1,18 +1,4 @@
 
-.article--gen{
-    
-    &__titulo{
-        @include texto(2.5rem,30px);
-    }
-    &__subtitulo{
-        @include texto(2rem,1%);
-    }
-    &__texto{
-        @include texto(1.5rem,5%);
-    }
-
-}
-
 .strong{
     font-weight: 700;
     font-size: 1.7rem;
