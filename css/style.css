@@ -403,6 +403,18 @@ footer {
   padding-bottom: 1%;
 }
 
+.modal__titulo {
+  font-size: 1.5rem;
+}
+.modal__texto {
+  font-size: 1rem;
+  padding-top: 40px;
+}
+
+.section--me .btn {
+  margin-top: 10px;
+}
+
 @media (max-width: 767px) {
   header {
     margin: 0;
