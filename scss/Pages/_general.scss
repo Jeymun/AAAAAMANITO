@@ -1,5 +1,49 @@
+.contacto{
+    &__opcion{
+        font-size: 1.3rem;
+        color: $accent;
+    }
+}
 
-
+.ar{
+    overflow: hidden;
+    position: relative;
+    border: solid 5px #13181F;
+    width: 15vw;
+    height: 15vh;
+    display: inline-block;
+    margin-top: 1rem;
+    &__subtitulo{
+        font-size: 1.5rem;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        text-decoration: none;
+        color: $accent ;
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        width: 100%;
+        &:hover{
+            color:#B8D9D3;
+        }
+    }
+    &__texto{
+        left: 5px;
+        position:absolute;
+        font-size: 1.4rem;
+        color: $accent;
+        text-decoration: none;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        font-weight: 700;
+        &:hover{
+            color:#B8D9D3;
+        }
+        top: 90px;
+    }
+    & img{
+        width: 100%;
+    }
+}
 .animear{
     & img{
         width: 100%;
@@ -141,6 +185,112 @@ footer{
 .titulo{
     @include titulo;
 }
+.arme{
+    position: relative;
+    width: 200px;
+    overflow: hidden;
+    & img{
+        width: 100%;
+    }
+    &__titulo{
+        font-size: 1rem;
+        font-weight: 700;
+        color: $accent;
+        text-decoration: none;
+        padding-left: 0.1rem;
+        display: block;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    &__texto{
+        font-size: 1rem;
+        font-weight: 700;
+        color: $accent;
+        text-decoration: none;
+        padding-left: 0.1rem;
+        display: block;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+
+.section--me .btn{  
+    background-color: $others;
+    color: $nrg;
+}
+
+.modal{
+    &__titulo{
+        font-size: 1.5rem;
+        color: $nrg;
+    }
+    &__texto{
+        font-size: 1rem;
+        padding-top: 10px;
+        color: $nrg;
+    }
+
+}
+.section--me .btn{
+    margin-top: 10px;
+}
+
+
+@media (max-width:767px){
+
+    .contenedor-icono svg{
+        margin-left: 20px;
+    }
+
+    .article--section .col{
+            flex: 0 0 auto;
+            width: auto;
+    }
+
+    .ar{
+        margin-bottom: -1px;
+        &__subtitulo{
+            font-size: 0.8rem;
+            position: absolute;
+            text-decoration: none;
+            color: $accent ;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            margin-left: 10px;
+            left: 1px;
+            top: 4px;
+        }
+    
+        &__texto{
+            top: 71%;
+            position:absolute;
+            font-size: 0.8rem;
+            color: $accent;
+            text-decoration: none;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            left: 10px;
+        }
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 700px){
+
+    
+    .ar{
+        overflow: hidden;
+        position: relative;
+        border: solid 5px #13181F;
+        width: 40vw;
+        height: 20vh;
+        margin-left: 1rem;
+        display: inline-block;
+    }
+
+}
 
 @media (max-width:767px){
     header{
@@ -158,18 +308,12 @@ footer{
     .secondary{
         display: none;
     }
-}
+
 
 .btn{
     padding-right: 50px;
 }
 
-
-    
-
-
-
-@media (max-width:767px){
     .animear .cardbody{
         display: none;
     }
@@ -229,8 +373,8 @@ footer{
         padding-left: 0.5rem;
     }
 
-}
 
+}
 
 @media screen and (max-width: 991px){
 
@@ -246,3 +390,5 @@ footer{
         top: 30%
     }
 }
+
+
