@@ -1,17 +1,11 @@
 
+@import "./variables/variables.scss";
+@import "./mixins/mixins.scss";
 @import "./Articles/articulos";
-
 @import "./Base/reseteo";
 @import "./Base/tipografia";
-
 @import "./Componentes/nav";
-
 @import "./Pages/anmare";
 @import "./Pages/contacto";
 @import "./Pages/index";
 @import "./Pages/mercancia";
-
-@import "./mixins/mixins.scss";
-
-@import "./variables/variables.scss";
-

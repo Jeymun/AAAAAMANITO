@@ -17,6 +17,10 @@
 
 
 .navbar-toggler{
-    border: #B8D9D3 solid;
+color: transparent;
 }
 
+.navbar-toggler-icon{
+    background-color: #B8D9D3;
+    border-radius: 50%;
+}
