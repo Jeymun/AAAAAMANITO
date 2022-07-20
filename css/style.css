@@ -399,6 +399,9 @@ footer {
     padding-left: 0.5rem;
     display: none;
   }
+  .footer__redes {
+    font-size: 1.5rem;
+  }
   .mangaar .col-3 {
     width: 100%;
   }
