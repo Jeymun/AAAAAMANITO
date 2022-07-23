@@ -15,31 +15,31 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-nav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../../index.html"> <h1 class="principal">BrocherRainbow</h1></a>      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="./index.html"> <h1 class="principal">BrocherRainbow</h1></a>      
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="../../categories/anime/anime.html">Anime</a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="../../categories/contact/contacto.html">Contacto</a>
+            <a class="nav-link" href="./categories/anime/anime.html">Anime</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="../../categories/manga/manga.html">Manga</a>
+              <a class="nav-link" href="./categories/contact/contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="../../categories/mercancia/mercancia.html">Mercancia</a>
+              <a class="nav-link" href="./categories/manga/manga.html">Manga</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="../../categories/resenas/resenas.html">Reseñas</a>
+              <a class="nav-link" href="./categories/mercancia/mercancia.html">Mercancia</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./categories/resenas/resenas.html">Reseñas</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Busqueda">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
     </div>
@@ -49,38 +49,56 @@
             <div>
               <h2 class="titulo">Quieres contactarnos?</h2>
             </div>
-            <form>
-    
-                <label class="contacto__opcion" for="campo-nombre">Nombre y Apellido</label>
-                  <input class="contacto__opcion" type="text" id="campo-nombre" placeholder="Nombre y apellido" required>
-              
-                  <label class="contacto__opcion" for="campo-mail">Email</label>
-                  <input class="contacto__opcion" type="email" id="campo-mail" placeholder="ejemplo@mailfalso.com" required>
-        
-                  <label class="contacto__opcion" for="campo-tel">Telefono</label>
-                  <input class="contacto__opcion" type="tel" id="campo-tel" placeholder="telefono" required>
-        
-                  <label class="contacto__opcion" for="campo-contra">Contraseña</label>
-                  <input class="contacto__opcion" type="password" id="campo-contra" placeholder="contraseña" required>
-        
-                  <p class="contacto__opcion">Pais</p>
-                  <label class="contacto__opcion" for="select-pais"> Introduzca su país:</label required>
-                      <select name="" id="select-pais" class="contacto__opcion">
-                        <option value="">Bolivia</option>
-                        <option value="">Argentina</option>
-                        <option value="">Peru</option>
-                      </select>
-                  
-                      <input type="checkbox" class="contacto__opcion">
-                    <p class="contacto__opcion">Insertar Mensaje</p>
-                  <div>
-                  <textarea name="" id="" cols="50" rows="15" class="contacto__opcion" ></textarea>
-                  </div>
-        
-                  <input type="submit" value="Enviar mensaje" class="contacto__opcion">
-                  <input type="reset" value="Borrar formulario" class="contacto__opcion">
-              
-              </form>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="correodeprueba@gmail.com">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="inputNombreApellido" placeholder="David Alejandro Jaramillo">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Calle</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle falsa 123">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Calle</label>
+                <input type="text" class="form-control" id="inputCalle" placeholder="Departamento o piso">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCuidad" placeholder="Buenos Aires">
+              </div>
+              <div class="col-md-4">
+                <label for="inputPais" class="form-label">Pais</label>
+                <select id="inputPais" class="form-select">
+                  <option selected>Elige...</option>
+                  <option>Argentina</option>
+                  <option>Bolivia</option>
+                  <option>Uruguay</option>
+                  <option>Paraguay</option>
+                  <option>Guatemala</option>
+                  <option>Mexico</option>
+                  <option>Peru</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="1234">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Suscribirme al boletin de noticias?
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
 
         </section>
 

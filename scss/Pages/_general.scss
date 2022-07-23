@@ -200,7 +200,7 @@ footer{
     &__titulo{
         font-size: 1rem;
         font-weight: 700;
-        color: $accent;
+        color: $nrg;
         text-decoration: none;
         padding-left: 0.1rem;
         display: block;
@@ -210,19 +210,42 @@ footer{
     &__texto{
         font-size: 1rem;
         font-weight: 700;
-        color: $accent;
+        color: $nrg;
         text-decoration: none;
         padding-left: 0.1rem;
         display: block;
         padding-top: 1%;
         padding-bottom: 1%;
     }
+
 }
 
+
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn-outline-success{
+    padding-right: 20px;
+}
+
+.form-label{
+    color: $accent;
+}
+
+.form-check-label{
+    color: $accent;
+}
 
 .section--me .btn{  
     background-color: $others;
     color: $nrg;
+    margin-bottom: 5px;
+}
+
+.section--me .card{
+    margin: 20px;
 }
 
 .modal{

@@ -276,7 +276,7 @@ footer {
 .arme__titulo {
   font-size: 1rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding-left: 0.1rem;
   display: block;
@@ -286,7 +286,7 @@ footer {
 .arme__texto {
   font-size: 1rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding-left: 0.1rem;
   display: block;
@@ -294,9 +294,31 @@ footer {
   padding-bottom: 1%;
 }
 
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn-outline-success {
+  padding-right: 20px;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.form-check-label {
+  color: #ffffff;
+}
+
 .section--me .btn {
   background-color: #B8D9D3;
   color: #000000;
+  margin-bottom: 5px;
+}
+
+.section--me .card {
+  margin: 20px;
 }
 
 .modal__titulo {
