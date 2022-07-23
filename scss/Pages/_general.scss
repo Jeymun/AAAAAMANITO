@@ -159,6 +159,8 @@ footer{
     
 }
 
+
+
 .contenedor-icono svg{
     display: inline-block;
     text-align: center !important;
@@ -180,7 +182,9 @@ footer{
     width: 100%
 }    
 
-
+.img--section{
+    height: 224px;
+}
 
 .titulo{
     @include titulo;
@@ -191,6 +195,7 @@ footer{
     overflow: hidden;
     & img{
         width: 100%;
+        
     }
     &__titulo{
         font-size: 1rem;
@@ -368,12 +373,12 @@ footer{
         width: auto;
     }
 
-    .mercanciaar .container{
-        display: grid;  
-        grid-template-rows: 15%; 
-        overflow: hidden;
+    .mercanciaar .col-3{
+        flex: 0 0 auto;
+        width: auto;
     }
-  
+
+
 
     .titulo{
         padding-left: 0.5rem;
